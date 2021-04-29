@@ -70,7 +70,7 @@ The FhirPathFilterInterceptor looks for a request URL parameter in the form `_fh
 The following example shows how to register the ExceptionHandlingInterceptor.
 
 ```java
-{{snippet:classpath:/ca/uhn/hapi/fhir/docs/ServletExamples.java|exceptionInterceptor}}
+{{snippet:classpath:/ca/uhn/hapi/fhir/docs/ServletExamples.java|fhirPathInterceptor}}
 ```
 
 An example URL to invoke this function is shown below:
