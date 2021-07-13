@@ -785,7 +785,7 @@
 		<jaxb_core_version>2.3.0.1</jaxb_core_version>
 		<jaxb_runtime_version>3.0.0</jaxb_runtime_version>
 		<jena_version>3.17.0</jena_version>
-		<jersey_version>3.0.0</jersey_version>
+		<jersey_version>3.0.2</jersey_version>
 		<!-- 9.4.17 seems to have issues -->
 		<jetty_version>9.4.42.v20210604</jetty_version>
 		<jsr305_version>3.0.2</jsr305_version>
