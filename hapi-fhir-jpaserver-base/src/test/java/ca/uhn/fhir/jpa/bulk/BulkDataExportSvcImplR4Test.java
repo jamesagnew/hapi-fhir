@@ -1323,6 +1323,6 @@ public class BulkDataExportSvcImplR4Test extends BaseJpaR4Test {
 		mdmLink.setLinkSource(MdmLinkSourceEnum.MANUAL);
 		mdmLink.setUpdated(new Date());
 		mdmLink.setVersion("1");
-		myMdmLinkDao.save(mdmLink);
+		runInTransaction(() -> myMdmLinkDao.save(mdmLink));
 	}
 }

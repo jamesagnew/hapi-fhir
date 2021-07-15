@@ -26,6 +26,7 @@ import ca.uhn.fhir.rest.annotation.Offset;
 import ca.uhn.fhir.rest.api.server.IBundleProvider;
 import ca.uhn.fhir.rest.api.server.RequestDetails;
 import org.hl7.fhir.instance.model.api.IBaseBundle;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Nullable;
 import java.util.Date;
@@ -60,6 +61,7 @@ public interface IFhirSystemDao<T, MT> extends IDao {
 	 *
 	 * @param theRequestDetails TODO
 	 */
+	@Transactional
 	MT metaGetOperation(RequestDetails theRequestDetails);
 
 	/**
